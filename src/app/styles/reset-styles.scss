@@ -1,0 +1,61 @@
+@use './root-styles.scss' as root;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+html {
+    background-color: var(--main-bg-color);
+}
+
+body {
+    background-color: var(--main-bg-color); /// ed
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, a, span, input::placeholder, input {
+    font-family: 'Montserrat'; /// ed
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration-line: none;
+    color: var(--main-text-color); /// ed
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: root.$fw-medium;
+}
+
+p, ul, ol, li, a, span, input::placeholder {
+    font-weight: root.$fw-regular;
+}
+
+button {
+    border: unset;
+    outline: unset;
+    border-radius: unset;
+    background-color: unset;
+    padding: 0px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input {
+    padding: 0px;
+    border: unset;
+    outline: unset;
+}
+

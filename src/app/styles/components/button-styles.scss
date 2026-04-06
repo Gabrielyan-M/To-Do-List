@@ -1,0 +1,11 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    min-width: 24px;
+    min-height: 24px;
+
+    border-radius: 40px;
+    flex-shrink: 0;
+}

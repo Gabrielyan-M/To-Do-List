@@ -1,0 +1,56 @@
+.decor-circle {
+    opacity: 0.9;
+    position: absolute;
+    width: clamp(200px, 15.625vw, 300px);
+    aspect-ratio: 1 / 1;
+    filter: blur( clamp(150px, 14vw, 300px ));
+    border-radius: 400px;
+    z-index: 0;
+
+    &.red {
+        top: -17.13vh;
+        left: 13.59vw;
+        background-color: var(--red);
+    }
+
+    &.green {
+        top: 10.65vh;
+        right: -4.48vw;
+        background-color: var(--green);
+    }
+
+    &.yellow {
+        bottom: -14.82vh;
+        right: 10.78vw;
+        background-color: var(--yellow);
+    }
+
+    &.purple {
+        bottom: 1.11vh;
+        left: 5.78vw;
+        background-color: var(--purple);
+    }
+
+    @media screen and (max-width: 600px) {
+        &.red {
+            top: -23.13vh;
+            left: 0vw;
+        }
+
+        &.green {
+            top: 8.65vh;
+            right: -10.48vw;
+        }
+
+        &.yellow {
+            bottom: -24.82vh;
+            right: 0vw;
+        }
+
+        &.purple {
+            bottom: 0vh;
+            left: 2.78vw;
+        }
+    }
+}
+

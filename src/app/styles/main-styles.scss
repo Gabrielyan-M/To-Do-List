@@ -1,0 +1,14 @@
+@use './reset-styles.scss';
+@use './root-styles.scss';
+
+/// components
+@use './components/button-styles.scss';
+@use './components/item-styles.scss';
+@use './components/inputAdd-styles.scss';
+@use './components/decoration-styles.scss';
+
+/// blocks
+@use './blocks/main-styles.scss';
+@use './blocks/title-styles.scss';
+@use './blocks/list-styles.scss';
+@use './blocks/homeBtn-styles.scss';

@@ -1,0 +1,41 @@
+@use './fonts/stylesheet.scss';
+
+$main-font-family: 'Montserrat';
+
+$fw-medium: 500;
+$fw-regular: normal;
+
+:root {
+    --black: #0D0D0D;
+    --white: #EAEAEA;
+    --white_20: rgba(234, 234, 234, 0.2);
+
+    --purple: #903BD1;
+    --red: #D13B3B;
+    --green: #53D13B;
+    --yellow: #D3C251;
+    
+}
+
+html[data-theme='dark'] {
+    --main-bg-color: #0D0D0D;
+    --main-text-color: #EAEAEA;
+
+    --reverse-main-bg-color: #EAEAEA;
+    --reverse-text-color: #0D0D0D;
+
+
+}
+
+html[data-theme='light'] {
+    --main-bg-color: #EAEAEA;
+    --main-text-color: #0D0D0D;
+
+    --reverse-main-bg-color: #0D0D0D;
+    --reverse-text-color: #EAEAEA;
+
+}
+
+
+/// delete
+

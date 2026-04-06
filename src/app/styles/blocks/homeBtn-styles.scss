@@ -1,0 +1,17 @@
+.portfolio-link {
+    opacity: 0.4;
+    position: absolute;
+    top: clamp(10px, 1.042vw, 20px);
+    right: clamp(10px, 1.042vw, 20px);
+    color: var(--main-text-color);
+    padding: 0.25em 1.25em;
+    border-radius: 40px;
+    background-color: var(--purple);
+    font-size: clamp(0.5rem, 0.425rem + 0.375vw, 0.875rem);
+    z-index: 10000;
+
+    @media screen and (max-width: 600px) {
+        top: 10px;
+        right: 10px; 
+    }
+}
