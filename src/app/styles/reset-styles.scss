@@ -18,9 +18,16 @@ html {
 
 body {
     background-color: var(--main-bg-color); /// ed
+    width: 100vw;
+    height: 100dvh;
     margin: 0;
     padding: 0;
     -ms-overflow-style: none;
+
+    #root {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, li, a, span, input::placeholder, input {
