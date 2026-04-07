@@ -4,7 +4,6 @@
     justify-content: center;
     width: 100dvw;
     height: 100dvh;
-    padding: 4.63vh 20px;
     overflow: hidden;
 
 
@@ -12,6 +11,7 @@
         width: 100%;
         height: 100%;
         max-width: 560px;
+        padding: 4.63vh 20px;
 
         display: flex;
         flex-direction: column;
